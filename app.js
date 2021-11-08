@@ -19,13 +19,10 @@ let valores = {
     nota: '',
 }
 
-
-
 listeners()
 function listeners(){
     
 formm.addEventListener('submit', cita);
-
 
 }
  
@@ -78,10 +75,7 @@ function agenda(arreglo){
     arreglo.forEach( datos => {
         const resultado = document.querySelector('#resultado-agenda');
      
-        
         localStorage.setItem(`a${local}b`,  JSON.stringify(datos));
-        
-        
         
         html = document.createElement('div');
         html.innerHTML = `
