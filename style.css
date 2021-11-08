@@ -1,0 +1,9 @@
+#contenedor{
+    background-image: linear-gradient(rgba(121, 114, 104, 0.322),rgba(167, 157, 159, 0.192));
+}
+#body{
+    background-color: rgba(212, 235, 201, 0.253);
+}
+#error{
+background-color: rgb(235, 141, 141);
+}
